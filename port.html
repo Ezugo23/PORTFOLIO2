@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO</title>
+  <link rel="stylesheet" href="port.css">
+</head>
+<body>
+  <section>
+    <!--navigation-->
+    <nav>
+      <a href="" class="logo">Portfolio</a>
+      <div class="menu-btn active">
+      <ul>
+        <li><a href="" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    </nav>
+    <!--text-->
+    <div class="text-container">
+      <p>Hello</p>
+      <P>I'M Paschal</P>
+      <p>I am a Software Developer</p>
+      <button class="hire-me"><a href="#contact">Hire Me</a></button>
+      <button class="down-cv">Download CV</button>
+    </div>
+    <!--Model-->
+    <img src="images/deal_ofthe_week.png" class="model">
+  </section>
+  <!--About Me-->
+  <div class="about-container" id="about">
+    <!--img-->
+    <img src="images/deal_ofthe_week.png">
+    <!--about-text-->
+    <div class="about-text">
+      <p>About Me</p>
+      <p>Developer</p>
+      <p>Hello,My name is Iwu Paschal. I am a Web Developer,If you have any project or any software for your business contact me, I deliver good and functional website and i deliver as soon as possible, if you don't like my work i will keep changing until it reach your satisfaction.</p>
+      <p>I am a FrontEnd Developer and a Web Designer. If you have any FrontEnd work i am always open for business.</p>
+      <!--button-->
+      <button><a href="#contact">Hire Me</a></button>
+      <button>Download Cv</button>
+    </div>
+  </div>
+  <!--service-->
+  <div class="services" id="service">
+    <!--text-->
+    <div class="services-text">
+    <p>Services</p>
+    <p>Services Required</p>
+    <p>I am a FrontEnd Developer and a Web Designer. If you have any FrontEnd work i am always open for business.</p>
+  </div>
+  <!--box-->
+  <div class="box-container">
+    <!--1-->
+    <div class="box-1">
+      <img src="images/icons8-code-16.png">
+      <p class="heading">FrontEnd Dev</p>
+      <p class="details">I am a FrontEnd Developer,If you have any FrontEnd work i am always open for business.....</p>
+      <button>Read More</button>
+    </div>
+    <!--2-->
+    <div class="box-2">
+      <img src="images/icons8-paint-brush-30.png">
+      <p class="heading">Website Design</p>
+      <p class="details">I am a Web Designer,If you have any Web Design work i am always open for business.....</p>
+      <button>Read More</button>
+    </div>
+    <!--3-->
+    <div class="box-3">
+      <img src="images/icons8-area-chart-24.png">
+      <p class="heading">Microsoft Excel</p>
+      <p class="details">I know microsoft Excel,If you have any Excel work i am always open for business.....</p>
+      <button>Read More</button>
+    </div>
+  </div>
+  </div>
+  <!--Contacts-->
+  <div class="contact-me" id="contact">
+    <div class="contact">
+    <p>If You Have Any Project In Mind.</p>
+    <button class="btnLogin">Contact Me</button>
+  </div>
+
+  <div class="wrapper">
+    <span class="icon-close"><img src="images/icons8-close-30.png" width="30px"></span>
+    <div class="form-box login">
+      <h2>Contact Me</h2>
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <div class="input-box">
+          <span class="icon"></span>
+          <input type="text" id="name" placeholder="Name" required>
+        </div>
+        <div class="input-box">
+          <span class="icon"></span>
+          <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="input-box">
+          <span class="icon"></span>
+          <input type="text" id="phone" placeholder="Phone No" required>
+        </div>
+        <div class="input-box">
+          <span class="icon"></span>
+          <textarea rows="10" id="message" placeholder="Job Description" required></textarea>
+        </div>
+        <button type="submit" class="btn">Message</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<footer>
+  <p>World Of Web Designs.</p>
+  <img src="images/icons8-paint-brush-30.png" width="50px">
+  <span>I am a FrontEnd Developer and a Web Designer. If you have any FrontEnd work i am always open for business.</span>
+  <!--social-->
+  <div class="social-icons">
+    <a href=""><img src="images/twitter.png"></a>
+    <a href=""><img src="images/linkedin.png"></a>
+    <a href=""><img src="images/fb.png"></a>
+    <a href=""><img src="images/insta.png"></a>
+  </div>
+  <!--copyright-->
+  <p class="copyright">Copyright &copy; by Iwu Paschal</p>
+</footer>
+<!--attached social bar-->
+<div class="a-social-b">
+  <a href=""><img src="images/twitter.png"></a>
+  <a href=""><img src="images/linkedin.png"></a>
+  <a href=""><img src="images/fb.png"></a>
+  <a href=""><img src="images/insta.png"></a>
+</div>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="port.js"></script>
+</body>
+</html>
