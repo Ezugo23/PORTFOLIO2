@@ -11,8 +11,8 @@ iconClose.addEventListener('click', ()=> {
 function sendEmail(){
       Email.send({
         Host : "smtp.gmail.com",
-        Username : "iwuchukwuezugo@gmail.com",
-        Password : "@Phantom23",
+        Username : "paschal@gmail.com",
+        Password : "@dad23",
         To : 'iwuchukwuezugo@gmail.com',
         From : document.getElementById("email").value,
         Subject : "New Contact Form Enquiry",
