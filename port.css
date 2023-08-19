@@ -203,6 +203,11 @@ button:active{
 }
 .box-1,.box-2,.box-3{
   background-color: #222;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.box-1,.box-2,.box-3:hover{
+  transform: scale(1.05);
 }
 .box-1 img,
 .box-2 img,
